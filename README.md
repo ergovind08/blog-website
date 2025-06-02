@@ -74,6 +74,7 @@ git clone https://github.com/yourusername/blog-platform.git
 cd blog-platform
 cd backend
 npm install
+.env -->backend
 PORT=5000
 MONGO_URI=mongodb://localhost:27017/blog-platform
 JWT_SECRET=your-secret-key-here
@@ -82,4 +83,5 @@ npm run dev
 # Server running on http://localhost:5000
 cd ../frontend
 npm install
+.env -->frontend
 NEXT_PUBLIC_API_URL=http://localhost:5000

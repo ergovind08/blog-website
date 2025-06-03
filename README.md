@@ -3,7 +3,7 @@
 A full-stack blog application built with **Next.js 14 (App Router)** for the frontend and **Node.js/Express** for the backend. This app supports user authentication, blog post creation, and post management with a clean, modern UI.
 
 ![Blog Platform Screenshot](./public/screenshot.png)  
-*Replace this image with a real screenshot named `screenshot.png` placed in the `public/` folder.*
+
 
 ---
 

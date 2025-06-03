@@ -65,6 +65,20 @@ A full-stack blog application built with **Next.js 14 (App Router)** for the fro
 - npm or yarn
 
 ---
+## Frontend Env
+# Copy And paste in frontned .env file
+NEXT_PUBLIC_API_URL=http://localhost:5001
+
+## Backend Env
+# Copy and paste in backend .env file
+PORT=5001
+MONGO_URI=mongodb://localhost:27017/blog-platform
+JWT_SECRET=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c
+JWT_EXPIRES_IN=1h
+
+
+
+
 
 ## 🛠️ Installation & Setup
 
@@ -90,9 +104,11 @@ NEXT_PUBLIC_API_URL=http://localhost:5000
 
 
 # if you are unable to run the frontend
-then run the command in terminal ---> frontend directory
-```bash
+# then run the command in terminal ---> frontend directory
+
 rm -rf node_modules .next package-lock.json
 npm install
 npm run dev
+
+
  

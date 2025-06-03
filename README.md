@@ -85,3 +85,14 @@ cd ../frontend
 npm install
 .env -->frontend
 NEXT_PUBLIC_API_URL=http://localhost:5000
+
+
+
+
+# if you are unable to run the frontend
+then run the command in terminal ---> frontend directory
+```bash
+rm -rf node_modules .next package-lock.json
+npm install
+npm run dev
+ 
